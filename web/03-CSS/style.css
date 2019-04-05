@@ -1,0 +1,46 @@
+.container {
+    max-width: 986px;
+    margin: 0 auto;
+}
+/* Defaults */
+h1 {
+    color: thistle;
+}
+h1.section-heading, h2.section-heading {
+    color: crimson;
+}
+
+/* Start Child selectors */
+section.section-first .section-heading {
+    color: aqua;
+}
+section.section-first .odd a {
+    color: blue;
+}
+section.section-first .even a {
+    color: red;
+}
+/* End Child selectors */
+
+/* Start Immediate Child selectors */
+section.section-second > .odd > a {
+    color: blue;
+}
+
+section.section-second > .even > a {
+    color: red;
+}
+/* End Immediate Child selectors */
+
+
+/* Start Preceding Neighbor selectors */
+section.section-third .section-heading {
+    color: darkred;
+}
+section.section-third p.precedence-para + p {
+    color: darkred;
+}
+section.section-third a.precedence-a + a {
+    color: darkred;
+}
+/* End Preceding Neighbor selectors */
