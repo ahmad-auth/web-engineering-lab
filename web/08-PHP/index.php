@@ -45,6 +45,7 @@
     
     <h2>Activity 02</h2>
     <hr>
+    <p>Array: <?php rsort($data); echo json_encode($data); ?></p>
     <p>Sum: <?php echo array_sum($data); ?></p>
     <p>Average: <?php echo (int) (array_sum($data)/count($data)); ?></p>
     <p>Higest 5: <?php rsort($data); echo json_encode(array_slice($data, 0, 5, true)); ?></p>
