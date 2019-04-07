@@ -3,4 +3,4 @@
 $dir = "/Project";
 $site_title = "Hostel Management System";
 
-// require "./includes/session.php";
+// require __DIR__ . "/../includes/session.php";
