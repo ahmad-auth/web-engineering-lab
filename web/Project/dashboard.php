@@ -57,6 +57,8 @@
         </div>
     </form>
 
+    <a href="<?php echo $dir . "/rooms/create.php"; ?>" class="btn btn-primary mb-4 float-right">Create Room</a>
+
     <table class="table">
         <thead>
             <tr>
@@ -76,7 +78,7 @@
                     Muhammad Abdullah <br>
                     Malik Abdullah
                 </td>
-                <td><button class="btn btn-primary">Edit</button></td>
+                <td><a class="btn btn-primary" href="<?php echo $dir . "/rooms/edit.php"; ?>">Edit</a></td>
             </tr>
             <tr>
                 <th scope="row">2</th>
@@ -85,7 +87,7 @@
                 <td>
                     Aon Raza
                 </td>
-                <td><button class="btn btn-primary">Edit</button></td>
+                <td><a class="btn btn-primary" href="<?php echo $dir . "/rooms/edit.php"; ?>">Edit</a></td>
             </tr>
             <tr>
                 <th scope="row">3</th>
@@ -96,7 +98,7 @@
                     Haris Gul <br>
                     Muhammad Shahzaib
                 </td>
-                <td><button class="btn btn-primary">Edit</button></td>
+                <td><a class="btn btn-primary" href="<?php echo $dir . "/rooms/edit.php"; ?>">Edit</a></td>
             </tr>
         </tbody>
     </table>
