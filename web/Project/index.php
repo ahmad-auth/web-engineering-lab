@@ -2,8 +2,8 @@
     $page_title = "Home";
     $page = "home";
 
-    require "./includes/config.php"; 
-    require "./layouts/header.php";
+    require __DIR__ . "/includes/config.php"; 
+    require __DIR__ . "/layouts/header.php";
 ?>
     <div class="jumbotron">
         <div class="container">
@@ -54,5 +54,5 @@
         <a class="mb-5" href="https://github.com/abdullahnaseer/web-engineering-lab/tree/master/web/Project">https://github.com/abdullahnaseer/web-engineering-lab/tree/master/web/Project</a>
     </div>
 <?php
-    require "./layouts/footer.php";
+    require __DIR__ . "/layouts/footer.php";
 ?>

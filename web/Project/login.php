@@ -6,8 +6,8 @@
     $page_title = "Authentication";
     $page = "login";
 
-    require "./includes/config.php"; 
-    require "./layouts/header.php";
+    require __DIR__ . "/includes/config.php"; 
+    require __DIR__ . "/layouts/header.php";
 ?>
     <div class="container mt-5">
         <div class="row">
@@ -57,4 +57,4 @@
         </div>
     </div>
 
-<?php require "./layouts/footer.php"; ?>
+<?php require __DIR__ . "/layouts/footer.php"; ?>

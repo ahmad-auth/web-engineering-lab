@@ -3,8 +3,8 @@
     $auth_check = true;
     $page = "dashboard";
 
-    require __DIR__ . "./includes/config.php"; 
-    require __DIR__ . "./layouts/header.php";
+    require __DIR__ . "/includes/config.php"; 
+    require __DIR__ . "/layouts/header.php";
 ?>
 <div class="container">
     <form class="mt-4 mb-4">
@@ -104,5 +104,5 @@
     </table>
 </div>
 <?php
-    require __DIR__ . "./layouts/footer.php";
+    require __DIR__ . "/layouts/footer.php";
 ?>
