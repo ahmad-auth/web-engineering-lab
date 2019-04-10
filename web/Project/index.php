@@ -26,8 +26,8 @@
         <div>
             <ul>
                 <li><a href="<?php echo $dir; ?>">Homepage</a></li>
-                <li><a href="<?php echo $dir; ?>/login">Login</a></li>
-                <li><a href="<?php echo $dir; ?>/dashboard">Dashboard</a></li>
+                <li><a href="<?php echo $dir; ?>/login.php">Login</a></li>
+                <li><a href="<?php echo $dir; ?>/dashboard.php">Dashboard</a></li>
             </ul>
         </div>
         <h3 class="mt-5">Technologies</h3>
@@ -51,7 +51,7 @@
         </div>
         <h3 class="mt-5">Source Code</h3>
         <hr>
-        <a href="https://github.com/abdullahnaseer/web-engineering-lab/tree/master/web/Project">https://github.com/abdullahnaseer/web-engineering-lab/tree/master/web/Project</a>
+        <a class="mb-5" href="https://github.com/abdullahnaseer/web-engineering-lab/tree/master/web/Project">https://github.com/abdullahnaseer/web-engineering-lab/tree/master/web/Project</a>
     </div>
 <?php
     require "./layouts/footer.php";
