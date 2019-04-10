@@ -13,6 +13,14 @@
     </div>
 
     <div class="container">
+        <h3 class="mt-5">Group Members</h3>
+        <hr>
+        <div>
+            <ul>
+                <li>Muhammad Abdullah (FA16-BSE-057)</li>
+                <li>Muhammad Ahmad (FA16-BSE-068)</li>
+            </ul>
+        </div>
         <h3 class="mt-5">Sitemap</h3>
         <hr>
         <div>
