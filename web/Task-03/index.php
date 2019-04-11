@@ -88,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                                     Campus:
                                 </td>
                                 <td>
-                                    <i class="font-normal">Lahore</i> <input type="checkbox" name="campus" > <i class="font-normal">Attock</i> <input type="checkbox" name="campus" >
+                                    <i class="font-normal">Lahore</i> <input type="checkbox" name="campus" value="Lahore" > <i class="font-normal">Attock</i> <input type="checkbox" name="campus" value="Attock" >
                                 </td>
                             </tr>
                             <tr>
@@ -175,7 +175,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                                     Gender:
                                 </td>
                                 <td>
-                                    <i class="font-normal">Male</i> <input type="checkbox" name="gender" > <i class="font-normal">Female</i> <input type="checkbox" name="gender" >
+                                    <i class="font-normal">Male</i> <input type="checkbox" name="gender" value="Male" > <i class="font-normal">Female</i> <input type="checkbox" name="gender" value="Female" >
                                 </td>
                             </tr>
 
